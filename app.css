@@ -1,0 +1,95 @@
+/* Basic reset */
+body, h1, h2, h3, p, form, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Menu item styling */
+.menu-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    color: #ff6f61;
+}
+
+/* Order form styling */
+.order-form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.order-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.order-form input, 
+.order-form select, 
+.order-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: #e65c50;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
